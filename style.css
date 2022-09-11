@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@500&display=swap');
+
+* {
+    margin: 0px;
+    
+}
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.476), rgba(0, 0, 0, 0.7)), url("https://assets.nflxext.com/ffe/siteui/vlv3/701eec50-4b87-4dc0-9d00-b0f54025dc36/146d4cb3-faae-4c09-b20c-40e5551a5194/GB-en-20220905-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    background-size: 100vw 93vh;
+    background-repeat: no-repeat;
+    background-color: rgb(52, 52, 52);
+}
+
+.logo-image {
+    width: 170px;
+    margin-left: 2.5%;
+
+}
+.sign-in {
+    background-color: #e50914;
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 80px;
+    font-size: 17px;
+    float: right;
+    margin-top: 1.5%;
+    margin-right: 2.5%;
+}
+.center-item {
+    margin: auto;
+    margin-top: 10%;
+    width: 700px;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+
+    border-radius: 10px;
+}
+.center-item h1 {
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 3px;
+}
+.center-item h3 {
+    font-family: 'Poppins', sans-serif;
+}
+.center-item p {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
+}
+.center-item .input-container input {
+    width: 75%;
+    height: 53px;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.center-item .input-container button {
+    width: 20%;
+    height: 55px;
+    background-color: #e50914;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
